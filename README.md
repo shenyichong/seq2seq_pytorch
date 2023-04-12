@@ -1,5 +1,5 @@
 # seq2seq_pytorch
-learning pytorch by implementing seq2seq model
+learning pytorch by implementing seq2seq model with attention 
 
 ## 迭代版本:
 
