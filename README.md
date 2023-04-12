@@ -12,3 +12,4 @@ learning pytorch by implementing seq2seq model
 - 在前者的基础上，将encoder和decoder收归到Model类中，并定义了模型的forward，train_process，eval函数。
 - train_process函数用于整个训练迭代过程，并在一定时间步之后调用eval函数计算test loss。
 - 在train_process中调用self.train()，以及在eval中调用super.eval()，用于改变model的训练模式，即使这里并没有什么区别。
+- 在eval函数中加入bleu分数的计算。
